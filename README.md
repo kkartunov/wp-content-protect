@@ -20,7 +20,7 @@ When content is protected it will be excluded from search results, author and po
 News sites, Blogs and/or any WP driven site which needs to present content according to viewer status.
 
 ## Installation
-1. Upload plugin's .zip file to the "/wp-content/plugins/" directory.
+1. Upload plugin's [.zip file](https://github.com/ColorfullyMe/wp-content-protect/archive/master.zip) to the "/wp-content/plugins/" directory.
 2. Extract it there.
 3. Activate the plugin through the "Plugins" menu in WordPress.
 
