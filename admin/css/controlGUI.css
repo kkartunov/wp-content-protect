@@ -1,0 +1,13 @@
+.WPCP_row i{
+    float: left;
+    margin-right: 10px;
+    color: rgb(190, 153, 153);
+}
+
+.WPCP_row p{
+    text-align: justify;
+}
+
+.WPCP_row input[type=text]{
+    width: 100%;
+}

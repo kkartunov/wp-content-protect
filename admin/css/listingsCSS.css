@@ -1,0 +1,8 @@
+#WPCP_protected{
+    width: 10px;
+}
+
+.WPCP_protected i{
+    color: rgb(190, 153, 153);
+    cursor: help;
+}

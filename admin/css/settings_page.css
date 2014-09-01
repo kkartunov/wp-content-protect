@@ -1,0 +1,18 @@
+#WPCPsettings {
+  height: 100%;
+  width: 100%;
+}
+#WPCPsettings #left,
+#WPCPsettings #right {
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+}
+#WPCPsettings #left {
+  width: 75%;
+  margin-right: 5%;
+}
+#WPCPsettings #right {
+  width: 15%;
+  text-align: center;
+}
