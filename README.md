@@ -32,6 +32,11 @@ News sites, Blogs and/or any WP driven site which needs to present content accor
 - Where can I find information about the supported date/time formats for the time locks?
   * All supported formats by the PHP's `strtotime()` function are supported by the plugin too. More [here]( http://php.net/manual/en/datetime.formats.relative.php).
 
+## Available in:
+- English
+- Deutsch
+- Български
+
 ## Contributing
 Pull requests welcome! What you will need to do to contribute is:
 
