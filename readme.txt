@@ -15,22 +15,22 @@ This plugin allows its owners to selectively set time locks on content they want
 When content is protected it will be excluded from search results, author and post archives, menu navigation, feeds and more. If an anonymous user gets somehow a direct link to content and tries to access/view it, this user gets redirected to the login screen to enter credentials. After successfully log in the user gets redirected again but this time to the content itself.
 
 == Installation ==
-1. Upload plugin\'s .zip file to the \"/wp-content/plugins/\" directory.
-2. Activate the plugin through the \"Plugins\" menu in WordPress.
+1. Upload plugin's .zip file to the "/wp-content/plugins/" directory.
+2. Activate the plugin through the "Plugins" menu in WordPress.
 Done!
 
 == Frequently Asked Questions ==
 = How can I change the plugin settings? =
-The plugin is equipped with a options page under the \"Settings\"  menu in WP\'s admin area.
+The plugin is equipped with a options page under the "Settings"  menu in WP's admin area.
 = Where can I find information about the supported date/time formats for the time locks? =
-All supported formats by the PHP\'s `strtotime()` function are supported by the plugin too. More here http://php.net/manual/en/datetime.formats.relative.php
+All supported formats by the PHP's `strtotime()` function are supported by the plugin too. More here http://php.net/manual/en/datetime.formats.relative.php
 
 == Screenshots ==
-1. Set content\'s time lock for the first time.
+1. Set content's time lock for the first time.
 2. Alter content time lock state.
 3. Renew expired time lock.
 4. Content time lock status in listings.
-5. Plugin\'s settings page.
+5. Plugin's settings page.
 
 == Changelog ==
 = 0.1 =
