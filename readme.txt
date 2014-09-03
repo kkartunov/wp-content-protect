@@ -14,6 +14,18 @@ This plugin allows its owners to selectively set time locks on content they want
 
 When content is protected it will be excluded from search results, author and post archives, menu navigation, feeds and more. If an anonymous user gets somehow a direct link to content and tries to access/view it, this user gets redirected to the login screen to enter credentials. After successfully log in the user gets redirected again but this time to the content itself.
 
+= Available in: =
+* English
+* Deutsch
+* Български
+
+= Contributing =
+http://git.io/lSW-AQ
+
+= Support this work =
+As You know every work needs time. But time nowadays is not free... this plugin needs Your support.
+https://gittip.com/ColorfullyMe
+
 == Installation ==
 1. Upload plugin's .zip file to the "/wp-content/plugins/" directory.
 2. Activate the plugin through the "Plugins" menu in WordPress.

@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Content Protect By Time Lock v0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-09-03 07:31:44+0000\n"
+"Last-Translator: admin <kiri4a@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: WP_ContentProtect.php:107
+#: svn/trunk/WP_ContentProtect.php:105
+#@ WP_ContentProtect_Textdomain
+msgid "Ops, you are not allowed to activate plugins"
+msgstr ""
+
+#: WP_ContentProtect.php:108
+#: svn/trunk/WP_ContentProtect.php:106
+#@ WP_ContentProtect_Textdomain
+msgid "Unauthorized plugin activation"
+msgstr ""
+
+#: WP_ContentProtect.php:181
+#@ WP_ContentProtect_Textdomain
+msgid "General"
+msgstr "Allgemein"
+
+#: WP_ContentProtect.php:188
+#@ WP_ContentProtect_Textdomain
+msgid "Restrict content"
+msgstr "Inhalt beschränken"
+
+#: WP_ContentProtect.php:193
+#: WP_ContentProtect.php:204
+#: svn/trunk/WP_ContentProtect.php:184
+#: svn/trunk/WP_ContentProtect.php:195
+#@ WP_ContentProtect_Textdomain
+msgid "Help"
+msgstr "Hilfe"
+
+#: WP_ContentProtect.php:199
+#@ WP_ContentProtect_Textdomain
+msgid "Datetime formating"
+msgstr "Datetime-Formatierung"
+
+#: WP_ContentProtect.php:210
+#@ WP_ContentProtect_Textdomain
+msgid "Custom column"
+msgstr "Plugin Spalte"
+
+#: WP_ContentProtect.php:215
+#: svn/trunk/WP_ContentProtect.php:206
+#@ WP_ContentProtect_Textdomain
+msgid "Display custom column with content status in listings"
+msgstr "Display benutzerdefinierte Spalte mit Statusanzeigen in Auflistung"
+
+#: WP_ContentProtect.php:221
+#@ WP_ContentProtect_Textdomain
+msgid "Protect by default"
+msgstr "Schützen standardmäßig"
+
+#: WP_ContentProtect.php:226
+#: svn/trunk/WP_ContentProtect.php:217
+#@ WP_ContentProtect_Textdomain
+msgid "Protect new, pending and future content by default"
+msgstr "Schütze neue, anstehende und zukünftige Inhalte standardmäßig"
+
+#: WP_ContentProtect.php:327
+#: svn/trunk/WP_ContentProtect.php:318
+#@ WP_ContentProtect_Textdomain
+msgid "Content Protect"
+msgstr "Inhaltsschutz"
+
+#: WP_ContentProtect.php:495
+#: svn/trunk/WP_ContentProtect.php:486
+#, php-format
+#@ WP_ContentProtect_Textdomain
+msgid "Protected for %suntil %s"
+msgstr "Geschützt für %sbis %s"
+
+#: admin/control_metabox.php:8
+#: svn/trunk/admin/control_metabox.php:8
+#, php-format
+#@ WP_ContentProtect_Textdomain
+msgid "Protected by %s for %s until %s."
+msgstr "Geschützt von %s für %s bis %s."
+
+#: admin/control_metabox.php:20
+#: svn/trunk/admin/control_metabox.php:20
+#, php-format
+#@ WP_ContentProtect_Textdomain
+msgid "Content is publicly available since %s"
+msgstr "Inhalt ist öffentlich zugänglich ab %s"
+
+#: admin/protect_again_form.php:5
+#: svn/trunk/admin/protect_again_form.php:5
+#@ WP_ContentProtect_Textdomain
+msgid "Renew protection for"
+msgstr "Schutz erneuern für"
+
+#: admin/protect_again_form.php:15
+#: admin/protect_alter_form.php:22
+#: admin/protect_setup_form.php:15
+#: svn/trunk/admin/protect_again_form.php:15
+#: svn/trunk/admin/protect_alter_form.php:22
+#: svn/trunk/admin/protect_setup_form.php:15
+#@ WP_ContentProtect_Textdomain
+msgid "Lock Indefinitely"
+msgstr "Für unbestimmte Zeit"
+
+#: admin/protect_alter_form.php:5
+#: svn/trunk/admin/protect_alter_form.php:5
+#@ WP_ContentProtect_Textdomain
+msgid "Remove protection"
+msgstr "Schutz entfernen"
+
+#: admin/protect_alter_form.php:11
+#: svn/trunk/admin/protect_alter_form.php:11
+#@ WP_ContentProtect_Textdomain
+msgid "Alter protection for:"
+msgstr "Schutz ändern"
+
+#: admin/protect_setup_form.php:7
+#: svn/trunk/admin/protect_setup_form.php:7
+#@ WP_ContentProtect_Textdomain
+msgid "Restrict Content For:"
+msgstr "Beschränken Inhalt für:"
+
+#: admin/settings_page.php:7
+#: svn/trunk/admin/settings_page.php:7
+#@ WP_ContentProtect_Textdomain
+msgid "Content protect settings"
+msgstr "Einstellungen für Inhalt-Schutz"
+
+#: admin/settings_page.php:11
+#: svn/trunk/admin/settings_page.php:11
+#@ default
+msgid "Save Changes"
+msgstr ""
+

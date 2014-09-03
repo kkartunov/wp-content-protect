@@ -6,6 +6,7 @@ Version: 0.0.1
 Author: Kiril Kartunov
 Author URI: mailto:kiri4a@gmail.com?Subject=ContentProtect-plugin
 Author Email: kiri4a@gmail.com
+Plugin URI: http://wordpress.org/plugins/content-protect-by-time-lock/
 License:
 
                     GNU GENERAL PUBLIC LICENSE
@@ -61,6 +62,8 @@ if( !class_exists( 'WP_ContentProtect' ) && defined( 'ABSPATH' ) ){
 			$this -> DIR = dirname( $this -> p_basename );
 			//Load plugin settings.
 			$this -> settings = get_option('WP_ContentProtect_settings');
+            // Load translation.
+            add_action('init', array($this, 'load_translation'));
             // Specific behavior for admin and front-end areas.
             if ( is_admin() ){
                 // Admin area.
@@ -129,6 +132,13 @@ if( !class_exists( 'WP_ContentProtect' ) && defined( 'ABSPATH' ) ){
         }
 
 		/*--------------------------------------------*
+		 * Loads plugin translation.
+		 *--------------------------------------------*/
+		public function load_translation(){
+            load_plugin_textdomain('WP_ContentProtect_Textdomain', false, $this -> DIR.'/lang/');
+        }
+
+		/*--------------------------------------------*
 		 * Compares WP version to some version string.
 		 *--------------------------------------------*/
 		public function minVer($compare_with, $operator = '>='){
@@ -169,14 +179,14 @@ if( !class_exists( 'WP_ContentProtect' ) && defined( 'ABSPATH' ) ){
 			//section and storage
 			add_settings_section(
 				'Wp_ContentProtect_settings',
-				'General',
+				__('General', 'WP_ContentProtect_Textdomain'),
 				null,
 				'Wp_ContentProtect'	//our page name in settings menu (from add_options_page())
 			);
 			//protected for
 			add_settings_field(
 				'protect_for',
-				'Restrict content',
+				__('Restrict content', 'WP_ContentProtect_Textdomain'),
 				array($this, 'settings_field_protect_for' ),
 				'Wp_ContentProtect',
 				'Wp_ContentProtect_settings',
@@ -187,7 +197,7 @@ if( !class_exists( 'WP_ContentProtect' ) && defined( 'ABSPATH' ) ){
 			//time format
 			add_settings_field(
 				'time_format',
-				'Datetime formating',
+				__('Datetime formating', 'WP_ContentProtect_Textdomain'),
 				array($this, 'settings_field_time_format' ),
 				'Wp_ContentProtect',
 				'Wp_ContentProtect_settings',
@@ -198,7 +208,7 @@ if( !class_exists( 'WP_ContentProtect' ) && defined( 'ABSPATH' ) ){
 			//display in listings
 			add_settings_field(
 				'listings_col',
-				'Custom column',
+				__('Custom column', 'WP_ContentProtect_Textdomain'),
 				array($this, 'settings_field_listings_col' ),
 				'Wp_ContentProtect',
 				'Wp_ContentProtect_settings',
@@ -209,7 +219,7 @@ if( !class_exists( 'WP_ContentProtect' ) && defined( 'ABSPATH' ) ){
 			//protect by default toggler
 			add_settings_field(
 				'protect_by_default',
-				'Protect by default',
+				__('Protect by default', 'WP_ContentProtect_Textdomain'),
 				array($this, 'settings_field_protect_by_default' ),
 				'Wp_ContentProtect',
 				'Wp_ContentProtect_settings',
