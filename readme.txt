@@ -1,6 +1,6 @@
 === Content Protect By Time Lock ===
 Contributors: Mtserve
-Tags: user, content, authentication
+Tags: user, content, authentication, author, profile, meta, menu, password, login, widget
 Requires at least: 3.0.1
 Tested up to: 4.0
 Stable tag: trunk
@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Content display management regulated by time locks.
 
 == Description ==
-This plugin allows its owners to selectively set time locks on content they want to protect(hide) from anonymous users visiting the site for particular time period. The time period can be bright variety of types. For instance +1 min,  tomorrow or etc.
+This plugin allows its owners to selectively set time locks on content they want to protect(hide) from anonymous users visiting the site for particular time period. The time period can be bright variety of types. For instance +1 min, tomorrow or etc.
 
 When content is protected it will be excluded from search results, author and post archives, menu navigation, feeds and more. If an anonymous user gets somehow a direct link to content and tries to access/view it, this user gets redirected to the login screen to enter credentials. After successfully log in the user gets redirected again but this time to the content itself.
 
